@@ -1,0 +1,9 @@
+/.deps/
+/absyntax/.deps/
+/absyntax_utils/.deps/
+/autom4te.cache/
+/stage1_2/.deps/
+/stage3/.deps/
+/stage4/generate_c/.deps/
+/stage4/generate_iec/.deps/
+
