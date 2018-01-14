@@ -444,7 +444,7 @@ function moveFiles()
 {
 	console.log('moving files...');
 	compilationOutput += 'moving files...\r\n';
-	var copier = spawn('mv', ['-f', 'POUS.c', 'POUS.h', 'LOCATED_VARIABLES.h', 'VARIABLES.csv', 'Config0.c', 'Config0.h', 'Res0.c', './core/']);
+	var copier = spawn('mv', ['-f', 'POUS.c', 'POUS.h', 'LOCATED_VARIABLES.h', 'VARIABLES.csv', './core/']);
 	copier.on('close', function(code)
 	{
 		if (code != 0)
